@@ -2,3 +2,4 @@
 
 echo "Hello world" > /tmp/hello
 echo "set -o vi" >> ~/.bashrc
+echo "export TERM=xterm-256color" >> ~/.bashrc
