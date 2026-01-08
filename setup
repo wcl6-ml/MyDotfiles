@@ -3,3 +3,11 @@
 echo "Hello world" > /tmp/hello
 echo "set -o vi" >> ~/.bashrc
 echo "export TERM=xterm-256color" >> ~/.bashrc
+
+set -euo pipefail
+
+if ! command -v chezmoi >/dev/null; then
+    sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply git@github.com:mischavandenburg/dotfiles-demo.git
+fi
+
+exit 0
