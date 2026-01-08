@@ -159,5 +159,3 @@ fi
 # wcl added, need to examine why there are two
 set -o vi
 export TERM=xterm-256color
-set -o vi
-export TERM=xterm-256color
