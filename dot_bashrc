@@ -158,3 +158,4 @@ fi
 
 # re-located chezmoi .git folder -wcl
 export TERM=xterm-256color
+set -o vi
