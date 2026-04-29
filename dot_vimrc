@@ -30,5 +30,3 @@ set t_vb=
 set pastetoggle=<F2>
 
 
-" vim-commentary: installed via webinstall.dev/vim-commentary
-source ~/.vim/plugins/commentary.vim
