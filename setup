@@ -9,5 +9,3 @@ fi
 exit 0
 
 
-sudo apt update && sudo apt-get install tree -y
-# install persoanl required packages that are not compatible with mise - wcl
