@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo "export TERM=xterm-256color" >> ~/.bashrc
-
 set -euo pipefail
 
 if ! command -v chezmoi >/dev/null; then
@@ -11,5 +9,5 @@ fi
 exit 0
 
 
-# install persoanl required packages that are not compatible with mise - wcl
 sudo apt update && sudo apt-get install tree -y
+# install persoanl required packages that are not compatible with mise - wcl
