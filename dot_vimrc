@@ -29,4 +29,6 @@ set t_vb=
 " " set f2 as paste mode to prevent indent issue - wcl
 set pastetoggle=<F2>
 
+" " enable copy paste in vim
+set clipboard=unnamedplus
 

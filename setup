@@ -12,4 +12,4 @@ exit 0
 
 
 # install persoanl required packages that are not compatible with mise - wcl
-sudo apt update && sudo apt install vim tree -y
+sudo apt update && sudo apt-get install tree -y
